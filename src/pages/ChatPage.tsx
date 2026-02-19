@@ -16,6 +16,10 @@ const quickResponses: Record<string, string> = {
     "Retinol (Vitamin A) is an anti-aging superstar! It boosts collagen, reduces fine lines, fades dark spots, and smooths texture. Start with 0.25% concentration and use at night. Always pair with sunscreen! 🌙",
   "Budget friendly moisturizers?":
     "Great budget moisturizers: Cetaphil Moisturizing Cream (~₹300), Neutrogena Hydro Boost (~₹400), and Minimalist Sepicalm Moisturizer (~₹350). All are effective and gentle! 💧",
+  "How to prevent aging?":
+    "Start with sunscreen (SPF 50+) daily — UV is the #1 cause of premature aging! Add retinol at night for collagen boost, Vitamin C in the morning for antioxidant protection, and hyaluronic acid for plumpness. Sleep well & stay hydrated! 🧬✨",
+  "Best anti-aging ingredients?":
+    "Top anti-aging ingredients: Retinol (collagen production), Peptides (firming), Vitamin C (brightening), Hyaluronic Acid (hydration), Niacinamide (barrier repair), and SPF (prevention). Start slow and build up! 💎",
 };
 
 const fallbackResponse = "Great question! For best results, follow a gentle routine: cleanse, treat, moisturize, and always use sunscreen daily. Consistency is the key to glowing skin! 💗";
@@ -43,7 +47,8 @@ const ChatPage = () => {
   const quickTopics = [
     "What is the best vitamin C serum?",
     "How do I reduce acne?",
-    "Explain retinol benefits",
+    "How to prevent aging?",
+    "Best anti-aging ingredients?",
     "Budget friendly moisturizers?",
   ];
 

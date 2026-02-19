@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const concerns = ["Acne", "Dryness", "Dark Spots", "Pigmentation", "Redness", "Wrinkles", "Oiliness", "Large Pores"];
+const concerns = ["Acne", "Dryness", "Dark Spots", "Pigmentation", "Redness", "Wrinkles", "Oiliness", "Large Pores", "Fine Lines", "Sagging", "Aging", "Dullness"];
 
 const SkinAnalysisPage = () => {
   const navigate = useNavigate();
