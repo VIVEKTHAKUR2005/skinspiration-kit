@@ -13,6 +13,9 @@ const products = [
   { name: "Night Repair Cream", price: "₹699", desc: "Repairs skin barrier while you sleep.", tags: ["Night", "Moisturizer"], category: "moisturizer" },
   { name: "Salicylic Acid Wash", price: "₹349", desc: "Deep pore cleansing for acne-prone skin.", tags: ["Acne", "Cleanser"], category: "cleanser" },
   { name: "Retinol Night Serum", price: "₹799", desc: "Anti-aging powerhouse for fine lines.", tags: ["Anti-aging", "Serum"], category: "serum" },
+  { name: "Collagen Boost Cream", price: "₹899", desc: "Firms skin & reduces sagging with peptides.", tags: ["Anti-aging", "Moisturizer"], category: "moisturizer" },
+  { name: "Hyaluronic Acid Serum", price: "₹449", desc: "Plumps skin & reduces fine lines instantly.", tags: ["Hydration", "Serum"], category: "serum" },
+  { name: "Anti-Aging Eye Cream", price: "₹649", desc: "Targets crow's feet, dark circles & puffiness.", tags: ["Anti-aging", "Eye Care"], category: "moisturizer" },
 ];
 
 const categories = ["all", "cleanser", "serum", "moisturizer", "sunscreen"];
